@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Nguyễn Anh Tiến (2A202603120)
 
-> **Bản nháp đang hoàn thiện.** Đã thêm ảnh person, ảnh người quay lưng/nghiêng, ảnh khuôn mặt và mẫu JSON. Ảnh person mới là khung annotation, không phải màn hình Label Constructor; cần thay bằng ảnh constructor để khớp yêu cầu. Bảng tự review, một phần thời gian và quyết định kích thước người còn cần học viên xác nhận. Ảnh JSON lấy từ ZIP hiện có, cần cập nhật sau lần export cuối.
+> **Bản nháp đang hoàn thiện.** Đã thêm đủ bốn ảnh minh chứng theo xác nhận của học viên. Bảng tự review, một phần thời gian và quyết định kích thước người còn cần học viên xác nhận. Ảnh JSON lấy từ ZIP hiện có, cần cập nhật sau lần export cuối.
 
 Dữ liệu bài: 12 ảnh người từ COCO val2017 và 8 ảnh khuôn mặt từ Wikimedia Commons. Annotation được thực hiện trên CVAT.
 
@@ -132,12 +132,12 @@ ZIP đang lưu trong repo được tạo lúc 09:15 ngày 13/11/2026. Sau đó h
 
 Các ảnh minh chứng theo yêu cầu trong `report/individual/images/`:
 
-1. `1_label_person.png` — Đã thêm ảnh CVAT có skeleton person và tên điểm trên người trượt tuyết. Ảnh này không phải màn hình Label Constructor; để đáp ứng đúng yêu cầu “thấy đủ 17 điểm có tên”, cần chụp lại tab Labels của project, mở label `person` và thay ảnh này.
+1. `1_label_person.png` — Ảnh minh chứng label `person` do học viên lấy từ mục Labels trong CVAT; hiển thị skeleton person và các tên điểm.
 2. `2_nguoi_quay_lung.png` — Đã thêm ảnh CVAT học viên gửi, có người quay lưng/nghiêng được gán skeleton.
 3. `3_mat_phong_to.png` — Đã thêm ảnh `face_264124.jpg`, phóng to khuôn mặt và thấy các điểm mắt, mũi, miệng.
 4. `4_json_export.png` — Đã tạo từ annotation thật trong ZIP đang lưu, có `keypoints` và `num_keypoints`; thay/cập nhật sau lần export cuối.
 
-Ảnh hỗ trợ khác do học viên gửi: `images/cvat_train_scene.png` (cảnh đoàn tàu) và `images/cvat_keypoint_legs.png` (cận cảnh các điểm ở chân). Ảnh khuôn mặt đã có; ảnh label constructor vẫn cần chụp trực tiếp trên CVAT để thay ảnh annotation hiện tại.
+Ảnh hỗ trợ khác do học viên gửi: `images/cvat_train_scene.png` (cảnh đoàn tàu) và `images/cvat_keypoint_legs.png` (cận cảnh các điểm ở chân).
 
 Nguồn ảnh: COCO val2017 cho ảnh người; Wikimedia Commons cho ảnh khuôn mặt.
 
