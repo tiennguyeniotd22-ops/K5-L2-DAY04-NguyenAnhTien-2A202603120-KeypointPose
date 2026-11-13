@@ -70,14 +70,14 @@ Chọn 5 ảnh người khi review ngược từ ảnh cuối về ảnh đầu,
 
 | Ảnh | Người / mặt | Điểm | Mã lỗi | Ghi chú | Đã sửa? |
 |---|---|---|---|---|---|
-| 000000413160.jpg (crowd) | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| 000000572411.jpg (small) | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| 000000311300.jpg (back) | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| 000000210604.jpg (back) | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| 000000461389.jpg (occluded) | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| face_483667.jpg | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| face_294580.jpg | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
-| face_288853.jpg | Chờ kiểm | Chờ kiểm | Chờ học viên | Chờ học viên | Chờ học viên |
+| 000000413160.jpg (crowd) | 3 | 18 | ok | ok | ok |
+| 000000572411.jpg (small) | 10 | 22 |  | ảnh vỡ  | gắn v0 các ngưởi vỡ pixel và dưới  |
+| 000000311300.jpg (back) | 2 | 24 | position | C | Chờ học viên |
+| 000000210604.jpg (back) | 2 | 31 | ok |  | Chờ học viên |
+| 000000461389.jpg (occluded) | 3 | 35 | ok | Chờ học viên | Chờ học viên |
+| face_483667.jpg | 1 |  | 13 | ok | ok |
+| face_294580.jpg | 1 |  | 13 | ok | ok |
+| face_288853.jpg | 1 |  | 13 | ok | ok |
 
 Mã lỗi dùng đúng một trong: lr_swap, vis_flag, position, missing, extra, ok.
 
