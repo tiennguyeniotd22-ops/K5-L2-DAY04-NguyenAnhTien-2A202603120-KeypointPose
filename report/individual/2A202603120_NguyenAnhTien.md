@@ -56,7 +56,7 @@ Các tình huống dưới đây được đối chiếu lại theo thông tin h
 | Ảnh | Người | Cảnh báo / điểm | Kết luận hiện tại | Ghi chú |
 |---|---|---|---|---|
 | 000000311300.jpg | #2 | cặp `left_ankle` / `right_ankle` bị báo ngược phía | Đã kiểm tra; trái/phải được xác nhận đúng, giữ nguyên | Không đổi cặp điểm chỉ để làm mất cảnh báo. |
-| 000000572411.jpg | #1 | độ trải điểm 58 px | Nhận ra người; tạm giữ | Học viên cho rằng tư thế ngồi làm điểm trải thấp; cần đối chiếu chiều cao người nhìn thấy/cắt khung. |
+| 000000572411.jpg | #1 | độ trải điểm 58 px | Nhận ra người; tạm giữ | em cho rằng tư thế ngồi làm điểm trải thấp; cần đối chiếu chiều cao người nhìn thấy/cắt khung. |
 | 000000572411.jpg | #2 | độ trải điểm 59 px | Nhận ra người; tạm giữ | Như trên; xác nhận lại theo kích thước người trong ảnh trước lần export cuối. |
 | 000000572411.jpg | #2 | cặp wrist bị báo ngược phía | Đã kiểm tra; trái/phải được xác nhận đúng, giữ nguyên | Không đổi cặp điểm chỉ để làm mất cảnh báo. |
 | 000000572411.jpg | #3 | độ trải điểm 17 px | Học viên nhận ra người; tạm giữ | Có thể do tư thế ngồi/che khuất; cần so với chiều cao người nhìn thấy trước lần export cuối. |
@@ -66,15 +66,14 @@ Hai cặp trái/phải bị cảnh báo đã được học viên kiểm tra tr�
 
 ## 4. Bảng tự review (CP3)
 
-Chọn 5 ảnh người khi review ngược từ ảnh cuối về ảnh đầu, trong đó có ít nhất 2 ảnh thuộc nhóm back hoặc crowd; chọn thêm 3 ảnh mặt. Các ảnh gợi ý bên dưới được lấy từ bộ đã giao. Học viên điền lỗi đã quan sát và tình trạng sửa, không đánh dấu ok trước khi kiểm tra trên ảnh.
-
+Chọn 5 ảnh người khi review ngược từ ảnh cuối về ảnh đầu, trong đó có ít nhất 2 ảnh thuộc nhóm back hoặc crowd; chọn thêm 3 ảnh mặt. Các ảnh gợi ý bên dưới được lấy từ bộ đã giao.
 | Ảnh | Người / mặt | Điểm | Mã lỗi | Ghi chú | Đã sửa? |
 |---|---|---|---|---|---|
 | 000000413160.jpg (crowd) | 3 | 18 | ok | ok | ok |
 | 000000572411.jpg (small) | 10 | 22 | extra | ảnh vỡ  | gắn v0 các ngưởi vỡ pixel và dưới  | không sửa|
 | 000000311300.jpg (back) | 2 | 24 | position | thấy đúng key poin | không sửa |
-| 000000210604.jpg (back) | 2 | 31 | ok |  | Chờ học viên |
-| 000000461389.jpg (occluded) | 3 | 35 | ok | Chờ học viên | Chờ học viên |
+| 000000210604.jpg (back) | 2 | 31 | ok | ok | ok |
+| 000000461389.jpg (occluded) | 3 | 35 | ok | ok | ok |
 | face_483667.jpg | 1 |  | 13 | ok | ok |
 | face_294580.jpg | 1 |  | 13 | ok | ok |
 | face_288853.jpg | 1 |  | 13 | ok | ok |
