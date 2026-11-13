@@ -38,7 +38,7 @@ Số skeleton hiện có trong ZIP:
 | back | 2 | 4 | 0 | 0 | 12–18 |
 | small | 1 | 4 | 6 | 0 | 20 |
 | crowd | 1 | 3 | 0 | 0 | 30 |
-| faces | 8 | 8 | — | 0 | Chưa ghi |
+| faces | 8 | 8 | — | 0 | 30 |
 
 Các nhóm là cách repo chia bộ 12 ảnh người: `easy` 5 ảnh, `occluded` 3, `back` 2, `small` 1 và `crowd` 1; đây không phải loại nhãn. `000000572411.jpg` thuộc `small`, `000000157271.jpg` thuộc `occluded`, `000000210604.jpg` thuộc `back`.
 
