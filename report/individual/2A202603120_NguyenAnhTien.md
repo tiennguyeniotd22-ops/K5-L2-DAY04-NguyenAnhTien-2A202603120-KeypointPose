@@ -33,21 +33,21 @@ Số skeleton hiện có trong ZIP:
 
 | Nhóm ảnh | Số ảnh được giao | Số skeleton trong ZIP hiện tại | Người dưới 60 px không gán | Poster/gương/màn hình bỏ qua | Thời gian (phút) |
 |---|---:|---:|---:|---:|---:|
-| easy | 5 | 5 | Chờ học viên bổ sung | Chờ học viên bổ sung | Chờ học viên bổ sung |
-| occluded | 3 | 7 | Chờ học viên bổ sung | Chờ học viên bổ sung | Chờ học viên bổ sung |
-| back | 2 | 4 | Chờ học viên bổ sung | Chờ học viên bổ sung | Chờ học viên bổ sung |
-| small | 1 | 4 | Chờ học viên bổ sung | Chờ học viên bổ sung | Chờ học viên bổ sung |
-| crowd | 1 | 3 | Chờ học viên bổ sung | Chờ học viên bổ sung | Chờ học viên bổ sung |
-| faces | 8 | 8 | — | Chờ học viên bổ sung | Chờ học viên bổ sung |
+| easy | 5 | 5 | 0 | 0 | 5–10 |
+| occluded | 3 | 7 | 0 | 0 | 10–15 |
+| back | 2 | 4 | 0 | 0 | 12–18 |
+| small | 1 | 4 | 6 | 0 | 20 |
+| crowd | 1 | 3 | 0 | 0 | 30 |
+| faces | 8 | 8 | — | 0 | Chưa ghi |
 
 Các nhóm là cách repo chia bộ 12 ảnh người: `easy` 5 ảnh, `occluded` 3, `back` 2, `small` 1 và `crowd` 1; đây không phải loại nhãn. `000000572411.jpg` thuộc `small`, `000000157271.jpg` thuộc `occluded`, `000000210604.jpg` thuộc `back`.
 
-- Tổng số người bỏ qua: 6 — 4 người mờ/vỡ pixel nên không xác định rõ; 2 người chỉ lộ một phần đầu ở `000000572411.jpg` (ảnh thuộc nhóm `small`). Chưa xác định được trong số này có bao nhiêu người thực sự dưới 60 px và chưa phân bổ đủ theo từng nhóm.
+- Nhóm `small`, ảnh `000000572411.jpg`: bỏ qua 6 người dưới 60 px; trong đó 4 người mờ/vỡ pixel, 2 người chỉ lộ một phần đầu ở mép ảnh. Các nhóm `easy`, `occluded`, `back`, `crowd` có 0 người dưới 60 px. Không có poster/gương/màn hình bị bỏ qua ở các nhóm.
 - Số ảnh người hoàn thành ở mốc phút 105: Chưa ghi lại.
-- Thời gian thực tế theo checkpoint/nhóm: Chưa ghi lại; hiện chỉ xác nhận khung 17:00–22:00.
+- Thời gian theo nhóm người: như bảng trên. Chưa ghi riêng thời gian làm 8 ảnh mặt và thời gian tự review CP3; khung giờ buổi làm là 17:00–22:00.
 - Ảnh khó nhất: `000000157271.jpg` (nhóm `occluded`) và `000000210604.jpg` (nhóm `back`) vì người xoay hướng, cần đổi trái/phải và khó xác định mắt, mũi, tai. `000000572411.jpg` (nhóm `small`) khó vì ảnh vỡ pixel, phải cân nhắc có đủ căn cứ gán hay không.
 
-Ghi chú áp dụng ngưỡng: 6 người bỏ qua là tổng theo ghi nhớ của học viên, không đồng nghĩa cả 6 đều dưới 60 px. Với hai người chỉ lộ đầu ở ảnh `000000572411.jpg`, cần xác nhận kích thước người và phần bị cắt: nếu người đủ ngưỡng thì gán các điểm quan sát được, phần không thấy để `outside` (`v=0`); nếu người thực sự dưới 60 px thì không tạo skeleton.
+Ghi chú áp dụng ngưỡng: sáu người được ghi ở hàng `small` là người dưới 60 px theo xác nhận của học viên; do đó không tạo skeleton cho họ. Các skeleton hiện trong ZIP của ảnh này là bốn người còn lại đã được gán.
 
 ## 3. Bảng ca khó (CP1, CP2)
 
