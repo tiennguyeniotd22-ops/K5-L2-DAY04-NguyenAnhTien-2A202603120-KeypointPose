@@ -1,0 +1,43 @@
+{
+ "mssv": "2A202603120",
+ "ten": "NguyenAnhTien",
+ "pool_version": "d04-k5-v2",
+ "cvat_user": "tiennguyeniotd22@gmail.com",
+ "project": "d04-keypoint",
+ "persons": [
+  "000000043968.jpg",
+  "000000194027.jpg",
+  "000000294329.jpg",
+  "000000295358.jpg",
+  "000000431893.jpg",
+  "000000157271.jpg",
+  "000000189365.jpg",
+  "000000461389.jpg",
+  "000000210604.jpg",
+  "000000311300.jpg",
+  "000000572411.jpg",
+  "000000413160.jpg"
+ ],
+ "faces": [
+  "face_421231.jpg",
+  "face_469647.jpg",
+  "face_85624.jpg",
+  "face_185015.jpg",
+  "face_264124.jpg",
+  "face_288853.jpg",
+  "face_294580.jpg",
+  "face_483667.jpg"
+ ],
+ "tasks": {
+  "persons": {
+   "task_id": 14,
+   "job_id": 11,
+   "task_name": "persons-NguyenAnhTien"
+  },
+  "faces": {
+   "task_id": 15,
+   "job_id": 12,
+   "task_name": "faces-NguyenAnhTien"
+  }
+ }
+}
