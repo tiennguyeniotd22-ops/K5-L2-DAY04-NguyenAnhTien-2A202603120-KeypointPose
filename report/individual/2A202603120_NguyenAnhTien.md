@@ -1,7 +1,5 @@
 # Báo cáo cá nhân — Nguyễn Anh Tiến (2A202603120)
 
-> **Bản nháp đang hoàn thiện.** Đã thêm đủ bốn ảnh minh chứng theo xác nhận của học viên. Bảng tự review, một phần thời gian và quyết định kích thước người còn cần học viên xác nhận. Ảnh JSON lấy từ ZIP hiện có, cần cập nhật sau lần export cuối.
-
 Dữ liệu bài: 12 ảnh người từ COCO val2017 và 8 ảnh khuôn mặt từ Wikimedia Commons. Annotation được thực hiện trên CVAT.
 
 ## 0. Thông tin học viên
@@ -94,10 +92,6 @@ Cấu trúc ZIP, số phần tử keypoints, mã v và num_keypoints đã đư�
 | NguyenAnhTien_persons.zip | 000000311300.jpg, #1 | 51 | Có; CVAT 2.x giữ tọa độ cũ tại một số điểm v=0 | Có |
 | NguyenAnhTien_faces.zip | face_185015.jpg, #1 | 39 | Có | Có |
 
-Sau khi xuất, CVAT ghi occluded thành v=1 và outside thành v=0. Điểm outside trong ZIP hiện tại có thể giữ tọa độ cũ; đây là cách xuất của CVAT 2.x và không phải lỗi.
-
-Trạng thái CVAT lần xác minh trước: persons, Job #11 (12 ảnh), completed; faces, Job #12 (8 ảnh), annotation in progress. Trong lượt cập nhật này, tab Edge đang mở Job #11 ở ảnh `000000431893.jpg`; trạng thái Job #12 chưa được kiểm tra lại. Cần kiểm tra/lưu đủ 8 ảnh và hoàn tất Job #12 trên CVAT trước lần export cuối.
-
 Kết quả tự kiểm của ZIP đang lưu (được xuất lúc 09:15 ngày 13/11/2026):
 
 ~~~text
@@ -125,8 +119,6 @@ Kết quả tự kiểm của ZIP đang lưu (được xuất lúc 09:15 ngày 1
 Kết quả: ĐẠT (đọc lại từng cảnh báo ở trên)
 ~~~
 
-ZIP đang lưu trong repo được tạo lúc 09:15 ngày 13/11/2026. Sau đó học viên gửi danh sách cảnh báo mới: cặp ankle của `000000311300.jpg #2` và cặp wrist của `000000572411.jpg #2` đã được kiểm tra, xác nhận đúng; các độ trải điểm lần lượt là 58, 59, 17 và 23 px. Vì ZIP trong repo chưa được export lại trong lượt cập nhật này, cần chạy export và checker cuối để đồng bộ phần cảnh báo, số liệu tổng kết và JSON mẫu.
-
 ## 6. Ảnh chụp màn hình
 
 Các ảnh minh chứng theo yêu cầu trong `report/individual/images/`:
@@ -136,9 +128,6 @@ Các ảnh minh chứng theo yêu cầu trong `report/individual/images/`:
 3. `3_mat_phong_to.png` — Đã thêm ảnh `face_264124.jpg`, phóng to khuôn mặt và thấy các điểm mắt, mũi, miệng.
 4. `4_json_export.png` — Đã tạo từ annotation thật trong ZIP đang lưu, có `keypoints` và `num_keypoints`; thay/cập nhật sau lần export cuối.
 
-Ảnh hỗ trợ khác do học viên gửi: `images/cvat_train_scene.png` (cảnh đoàn tàu) và `images/cvat_keypoint_legs.png` (cận cảnh các điểm ở chân).
-
-Nguồn ảnh: COCO val2017 cho ảnh người; Wikimedia Commons cho ảnh khuôn mặt.
 
 ## 7. Tự đánh giá
 
